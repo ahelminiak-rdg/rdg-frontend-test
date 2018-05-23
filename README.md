@@ -10,14 +10,14 @@ You have been provided with desktop and mobile mockups for a web page, along wit
 TIPS, NOTES, ETC.
 
 
-GETTING THE REPOSITORY
+GETTING THE REPOSITORY: 
 This can be done one of three following ways. You can choose which method to use.
 1. Clone the Repository
 2. Download the Repository
 3. Fork the Repository
 
 
-USING SASS:
+USING SASS: 
 At RDG, we use SASS for our styling instead of CSS. This allows us greater flexibility by nesting and variables, and ultimately using fewer lines of code by way of mixins. If you decide to use SASS as your styling language of choice (but it's completely new to you), here are some links to help you get started.
 
 Directions to install SASS:
