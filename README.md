@@ -15,7 +15,7 @@ You have been provided with desktop and mobile mockups for a web page, along wit
 
 ## Tips, Notes, and Guidelines
 
-### GETTING THE REPOSITORY:
+### Getting the Repository
 1. Fork the repository
 2. Clone it onto your machine
 3. Make a new branch, using the naming convention first initial_lastname (ex. John Smith --> j_smith)
@@ -28,14 +28,14 @@ You have been provided with desktop and mobile mockups for a web page, along wit
 - Git Terminal Commands: https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
 
-### JQUERY: ###
+### JQuery ###
 JQuery can be pulled into the site in two ways. You can download JQuery and link it from your internal file structure, or pull it in using an external link.
 
 #### JQuery Resources: ####
 - Downloading: https://jquery.com/
 - CDN: https://code.jquery.com/
 
-### USING SASS: ### 
+### SASS ### 
 At RDG, we use SASS for our styling instead of CSS. This allows us greater flexibility by nesting and variables, and ultimately using fewer lines of code by way of mixins. If you decide to use SASS as your styling language of choice (but it's completely new to you), here are some links to help you get started.
 
 #### SASS Resources: ####
