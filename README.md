@@ -20,7 +20,7 @@ You have been provided with desktop and mobile mockups for a web page, along wit
 2. Clone it onto your machine
 3. Make a new branch, using the naming convention first initial_lastname (ex. John Smith --> j_smith)
 4. Complete the required styling and functionality adding, committing, and pushing your changes to your forked branch.
-5. Pull request your rep
+5. Pull request back to the `rdg-frontent-test` repository
 
 #### Git Resources:
 - Forking and Git Workflow Guide https://gist.github.com/Chaser324/ce0505fbed06b947d962
