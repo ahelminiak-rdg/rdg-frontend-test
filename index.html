@@ -5,9 +5,11 @@
     <meta name="MobileOptimized" content="width">
     <meta name="HandheldFriendly" content="true">
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/global.css" media="screen">
     <title>Roof Systems | Inteva Products</title>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </head>
-
 <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-629 node-type-landing-page-2 section-capabilities" >
     
 <div id="page">
@@ -23,7 +25,7 @@
                 <div class="site-slogan" id="site-slogan">Insight. Inside. Inteva.</div>
             </div>
         
-            <a href="#navigation" class="js-menutoggle menutoggle__open"><i class="icon-bars"></i>Menu</a>
+            <a href="#navigation" class="js-menutoggle menutoggle__open"><i class="icon-bars"></i> Menu</a>
 
             <div id="navigation" class="navigation">
                 <a href="#main-wrapper" class="js-menutoggle menutoggle__close"><i class="icon-close"></i>Close</a>
@@ -58,7 +60,6 @@
             </div><!-- /#navigation -->
         </div>
     </header><!-- /#header -->
-
     <div id="main-wrapper">
         <section class="pageheader">
             <div id="slide-1" class="pageheader-content">    
@@ -75,7 +76,6 @@
                 <a class="button--orange" href="#">Learn More</a>
             </div>
         </section>
-
         <div id="main" class="main layout-container">
             <div id="content" class="column" role="main">
                 <section class="wayfinding">
@@ -111,7 +111,7 @@
                     <div class="block-content">
                         <div class="view view-landing-pages view-id-landing_pages view-display-id-block view-dom-id-bed3cb3115db9b44758397b4d0ff2e61">
                             <ul class="cards cards__count-odd">
-                                <li class="card ">  
+                                <li class="card">  
                                     <article class="node-632 node node-capability node-teaser clearfix">
                                         <a class="card__link" href="#">
                                             <div class="card__image">
@@ -161,7 +161,7 @@
                                         </a>
                                     </article>
                                 </li>
-                                <li class="card ">  
+                                <li class="card">  
                                     <article class="node-631 node node-capability node-teaser clearfix">
                                         <a class="card__link" href="#">
                                             <div class="card__image">
@@ -245,5 +245,59 @@
 
 
 </body>
+
+        <script src="js/jquery-3.2.0.min.js"></script>
+
+
+
+
+        <script>
+
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                // Next/previous controls
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+
+                // Thumbnail image controls
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("pageheader-content");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1} 
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none"; 
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block"; 
+                  dots[slideIndex-1].className += " active";
+                }
+
+
+        </script>
+        
+
+
+
+        <script>
+            $(".menutoggle__open").click(function(){
+                $(".navigation").toggle();
+                return false;
+            });
+            $(".navigation").click(function() {
+                $(this).hide();
+            });
+        </script>
+
+
 </html>
 
