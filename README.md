@@ -16,16 +16,14 @@ You have been provided with desktop and mobile mockups for a web page, along wit
 ## Tips, Notes, and Guidelines
 
 ### Getting the Repository
-1. Fork the repository
-2. Clone it onto your machine
-3. Make a new branch, using the naming convention first initial_lastname (ex. John Smith --> j_smith)
-4. Complete the required styling and functionality adding, committing, and pushing your changes to your forked branch.
-5. Pull request back to the `rdg-frontent-test` repository
+1. Clone the repository onto your machine
+2. Make a new branch on the command line, using the naming convention first initial_lastname (ex. John Smith --> j_smith)
+3. Complete the required styling and functionality adding, committing, and pushing your changes to your forked branch.
+4. Push your branch out to GitHub.
 
 #### Git Resources:
-- Forking and Git Workflow Guide https://gist.github.com/Chaser324/ce0505fbed06b947d962
-- Forking Tutorial: http://kbroman.org/github_tutorial/pages/fork.html
 - Git Terminal Commands: https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+- Git Troubleshooting Tips: https://ohshitgit.com/
 
 
 ### JQuery ###
@@ -35,7 +33,7 @@ JQuery can be pulled into the site in two ways. You can download JQuery and link
 - Downloading: https://jquery.com/
 - CDN: https://code.jquery.com/
 
-### SASS ### 
+### SASS ###
 At RDG, we use SASS for our styling instead of CSS. This allows us greater flexibility by nesting and variables, and ultimately using fewer lines of code by way of mixins. If you decide to use SASS as your styling language of choice (but it's completely new to you), here are some links to help you get started.
 
 #### SASS Resources: ####
