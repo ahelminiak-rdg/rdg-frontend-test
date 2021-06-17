@@ -41,3 +41,5 @@ At RDG, we use SASS for our styling instead of CSS. This allows us greater flexi
 - SASS Guide: https://sass-lang.com/guide
 - SASS Online Course: https://www.codecademy.com/learn/learn-sass
 
+### Extra Credit: Accessibility ###
+Accessibility is important at RDG, and we strive to make sure we build inclusive products that work for everyone, regardless of how they access it. There are some accessibility issues in the HTML and design of this webpage. Check the HTML semantics and aspects of the mockups to see what can be improved or brought into WCAGE 2.1 compliance.
